@@ -5,28 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portofolio</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
   </head>
   <body>
-    <!--Header-->
-    <div>
-      <!--Navbar-->
-      <div class="Navbar" id="Navbar">
-        <p>Popoy</p>
-        <ul type="none">
-          <li><a href="#">Home</a></li>
-          <li><a href="#abt">About</a></li>
-          <li><a href="#prj">Playlist</a></li>
-          <li><a href="#jad">Schedule</a></li>
-          <li><a href="#poy">????</a></li>
-          <li><a href="#contact">Contact</a></li>
+  <!--Header-->
+  <br>
+  <!--Navbar-->
+    <nav class="navbar" id="Navbar">
+      <div class="navi">Popoy</div>
+      <div class="menutoggle" id="menutoggle">☰</div>
 
-        </ul>
+      <div class="nav" id="nav-menu">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+
+        <div class="dropdown">
+          <span class="drop">UTS ▾</span>
+          <div class="dropdown-content">
+            <a href="#materi-web">Apa Itu?</a>
+            <a href="#tata-cara">Cara Buat Website</a>
+            <a href="#kepe">Kesan dan Pesan</a>
+          </div>
+        </div>
+
+        <a href="#schedule">Schedule</a>
+        <a href="#poy">poy's</a>
+        <a href="#contact">Contact</a>
       </div>
+    </nav>
       <!--Akhir Navbar-->
-      <hr />
+
       <!--Profile-->
-      <div id="hm" class="kontener">
+      <div id="home" class="kontener">
         <div class="Profile">
           <img src="popoy.png" alt=" " height="300" />
           <h2>Pocut Qanitah Putroe Azizul - 241401105</h2>
@@ -34,11 +44,9 @@
         </div>
       </div>
     </div>
-
     <!--Header-->
-
     <!--About me-->
-    <div id="abt" class="Aboutme">
+    <div id="about" class="Aboutme">
       <h2>🌟Get to Know me🌟</h2>
       <p>
         Halo Semuanya, Perkenalkan Nama ku Pocut Qanitah Putroe Azizul, biasa di panggil Pocut atau Ocut. Aku lahir di Medan, 28 April 2005, sekarang aku berumur 20 tahun.
@@ -46,131 +54,221 @@
       </p>
     </div>
     <!--Akhir About Me-->
-    
+
     <!--My Project-->
     <div id="prj" class="Project">
-      <!--Card1-->
-      <h2>🎧My Playlist🎧</h2>
+      <br>
+      <h2 style="font-size: 30px">🎧My Top Song🎧</h2>
+      <br>
       <div class="projectlist">
-        <div class="Card1">
-          <img src="playlistpocut.jpg" alt="gambar projek" height="200" style="display:block; margin:auto;"/>
-          <br>
-          <b>Link My Playlist:</b>
-            <a href="https://open.spotify.com/playlist/5zjmPDsGhtHAz1HccSvMff?si=3b7f444b0a0849cb" class="link" target="_blank"
-              >g-old</a>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure
-            mollitia voluptatum corrupti sint delectus facilis pariatur
-            recusandae! Eveniet, iure debitis?
-          </p>
-        </div>
+        <!--Card1-->
+          <iframe data-testid="embed-iframe" style="border-radius:20px" src="https://open.spotify.com/embed/track/65PjFLm6X567f52At4CI1N?utm_source=generator" width="30%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
         <!--Card2-->
-        <div class="Card2">
-          <img src="playlistpocut2.jpg" alt="gambar projek" height="200" style="display:block; margin:auto;"/>
-          <br>
-          <b>Link My Playlist:</b>
-            <a href="https://open.spotify.com/playlist/74vteISJb8c4PsTAKyPRm2?si=e73dfc3f52fd451a" class="link" target="_blank"
-              >Old kpop 2nd-3rd gen kpop</a>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure
-            mollitia voluptatum corrupti sint delectus facilis pariatur
-            recusandae! Eveniet, iure debitis?
-          </p>
-        </div>
-      </div>
-    </div>
+        <iframe data-testid="embed-iframe" style="border-radius:20px" src="https://open.spotify.com/embed/track/7lRlq939cDG4SzWOF4VAnd?utm_source=generator" width="30%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        <!-- Card3 -->
+         <iframe data-testid="embed-iframe" style="border-radius:20px" src="https://open.spotify.com/embed/track/2FML7gk7ac6quGFIjvkDb3?utm_source=generator" width="30%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+         <!-- Card 4 -->
+          <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/11HoyxwXVwWq6lj2Rv37CH?utm_source=generator" width="30%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          <!-- Card 5 -->
+           <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/4dtmj7X21gunWoQf98hW5L?utm_source=generator" width="30%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+           <!-- Card 6 -->
+            <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/2f4FDuRjuV1yXfpoG49ABM?utm_source=generator" width="30%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <!-- Card 7 -->
+             <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/4kfjA6WfgKBt7I7YKuDCkU?utm_source=generator" width="30%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+             <!-- Card 8 -->
+              <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/64yrDBpcdwEdNY9loyEGbX?utm_source=generator&theme=0" width="30%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <!-- Card 9 -->
+             <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/5p0ietGkLNEqx1Z7ijkw5g?utm_source=generator" width="30%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
     <!--Akhir My Project-->
+    
+    <!-- Tugas Uts Pemweb -->
+     <br>
+     <br>
+    <h2 id="uts" style="font-size: 80px" >🤯TUGAS UTS🤯</h2>
+    </section>
+        <section id="materi-web">
+        <div class="section-header" data-aos="fade-down">
+            <h2>Ayo Mengenal</h2>
+            <p class="section-subtitle">HTML, CSS, JavaScript & Tailwind.</p>
+        </div>
+        <div class="tech-card-container">
+            <div class="tech-card" data-aos="fade-up" data-aos-delay="100">
+                <i class="fab fa-html5 icon-html"></i>
+                <h3>HTML</h3>
+                <p>Kerangka atau struktur dasar dari sebuah halaman web. Ibaratnya, ini adalah tulang-belulang website.</p>
+            </div>
+            <div class="tech-card" data-aos="fade-up" data-aos-delay="200">
+                <i class="fab fa-css3-alt icon-css"></i>
+                <h3>CSS</h3>
+                <p>Digunakan untuk mendesain tampilan website, seperti warna, layout, dan font. Ini adalah "kulit" dan "pakaian" dari website.</p>
+            </div>
+            <div class="tech-card" data-aos="fade-up" data-aos-delay="300">
+                <i class="fab fa-js-square icon-js"></i>
+                <h3>JavaScript</h3>
+                <p>Bahasa yang membuat website menjadi interaktif dan dinamis. Ini adalah "otak" dan "otot" website.</p>
+            </div>
+                <div class="tech-card" data-aos="fade-up" data-aos-delay="400">
+                <svg class="icon-tailwind" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12.001,4.8c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 C13.666,10.618,15.027,12,18.001,12c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C16.334,6.182,14.973,4.8,12.001,4.8z M6.001,12c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 c1.177,1.194,2.538,2.576,5.512,2.576c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C10.334,13.382,8.973,12,6.001,12z"></path>
+                </svg>
+                <h3>Tailwind CSS</h3>
+                <p>Framework CSS yang mempercepat proses styling dengan menyediakan class-class siap pakai (utility-first).</p>
+            </div>
+        </div>
+        </section>
+        <section id="tata-cara">
+          <br>
+            <h2 data-aos="fade-down">Langkah Membuat Website</h2>
+            <div class="steps-container" data-aos="fade-up">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Persiapan</h3>
+                        <p>Siapkan Text Editor (seperti VS Code) dan Web Browser.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Struktur (HTML)</h3>
+                        <p>Buat file <strong>index.html</strong> dan susun kerangka konten dengan tag.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Gaya (CSS)</h3>
+                        <p>Buat file <strong>style.css</strong> untuk mendesain warna, font, dan layout.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3>Interaksi (JS)</h3>
+                        <p>Buat file <strong>script.js</strong> untuk menambahkan animasi dan fungsi interaktif.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">5</div>
+                    <div class="step-content">
+                        <h3>Publikasi</h3>
+                        <p>Unggah folder proyek ke layanan gratis seperti Vercel atau GitHub Pages.</p>
+                    </div>
+                </div>
+            </div>
+          </section>
+      <div>
+        <section class="pipid">
+        <div class="videocontainer">
+          <h3 class="subjudul1">Apa itu HTML, CSS, dan JavaScript</h3>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/DHGhFJZLKMs?si=7CMXUS144IYklTIp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="videocontainer">
+          <h3 class="subjudul1">Tailwind Dalam Satu Detik</h3>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/mr15Xzb1Ook?si=CI4zebfKVPGfOzeE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+      </section>
+    </div>
+      <br>
+        <section id="kepe">
+  <h2>Kesan & Pesan</h2>
+
+  <div class="experience-container">
+    <div class="exp-card left">
+      <h3>💬 Kesan</h3>
+      <p>
+        Kesan saya dalam mempelajari pemrograman web sangatlah positif.
+        Meskipun awalnya terasa menantang, saya menemukan bahwa dengan latihan dan eksplorasi yang konsisten,
+        saya dapat memahami konsep dasar seperti HTML, CSS, dan JavaScript.
+        Saya juga menghargai bagaimana pemrograman web memungkinkan saya menggabungkan kreativitas dengan logika
+        untuk menciptakan sesuatu yang fungsional dan estetis.
+      </p>
+    </div>
+
+    <div class="exp-card right">
+      <h3>🚀 Pesan</h3>
+      <p>
+        Semoga saya dapat terus berkembang dan belajar teknologi web terbaru.
+        Saya ingin menerapkan pengetahuan ini dalam proyek nyata, baik untuk keperluan pribadi maupun profesional.
+        Terima kasih kepada dosen dan teman-teman yang selalu mendukung dalam proses pembelajaran ini!
+      </p>
+    </div>
+  </div>
+</section>
 
     <!-- Tabel Kuliah  -->
-    <h2 id="jad" class="jadwalh2">📅 Jadwal Kuliah Pocut📅 </h2>
+  <div id="schedule">
+  <h2 class="jadwalh2">📅 Jadwal Kuliah Pocut 📅</h2>
+  
+  <!-- Bungkus tabel di dalam table-wrapper -->
+  <div class="table-wrapper">
     <table class="jadwal">
-    <tr>
+      <tr>
         <th>Jadwal</th>
         <th>Mata Kuliah</th>
         <th>SKS</th>
         <th>Ruangan</th>
         <th>Dosen</th>
-    </tr>
-    <tr>
+      </tr>
+      <tr>
         <td>Senin, 10.30-12.10</td>
         <td>SASTRA DAN PERFILMAN</td>
         <td>2</td>
         <td>O.103</td>
         <td>Arie Azhari Nasution S.S., M.A.</td>
-    </tr>
-    <tr>
+      </tr>
+      <tr>
         <td>Selasa, 08.50-10.30</td>
         <td>IELTS Preparation</td>
         <td>2</td>
         <td>D-101</td>
         <td>Drs. Yulianus Harefa GradDipEd TESOL., MEd TESOL</td>
-    </tr>
-    <tr>
-      <td>Selasa, 12.10-13.50</td>
-      <td>Lab Struktur Data</td>
-      <td>1</td>
-      <td>Lab Pemograman 2</td>
-      <td>Kak Parul</td>
-    </tr>
-    <tr>
-      <td>Selasa, 13.50-15.30</td>
-      <td>Lab Pemgoraman Web</td>
-      <td>1</td>
-      <td>Lab Pemograman 3</td>
-      <td>Bang Syukron</td>
-    </tr>
-    <tr>
-        <td>Rabu, 08.00-10.30</td> 
+      </tr>
+      <tr>
+        <td>Rabu, 08.00-10.30</td>
         <td>Struktur Data</td>
         <td>3</td>
         <td>D-104</td>
-        <td>Anandhini Medianty Nababan S.Kom., M.T<br>
-            Insidini Fawwaz M.Kom</td>   
-    </tr>
-    <tr>
+        <td>Anandhini Medianty Nababan S.Kom., M.T<br>Insidini Fawwaz M.Kom</td>
+      </tr>
+      <tr>
         <td>Rabu, 10.30-13.00</td>
         <td>Kecerdasan Buatan</td>
         <td>3</td>
         <td>D-105</td>
-        <td>Dr. Amalia S.T., M.T.<br>
-        Dr. Pauzi Ibrahim Nainggolan S.Komp., M.Sc.</td>
-    </tr>
-    <tr>
+        <td>Dr. Amalia S.T., M.T.<br>Dr. Pauzi Ibrahim Nainggolan S.Komp., M.Sc.</td>
+      </tr>
+      <tr>
         <td>Rabu, 14.40-17.10</td>
-        <td>Pemograman Web</td>
+        <td>Pemrograman Web</td>
         <td>3</td>
         <td>D-102</td>
-        <td>Dr. Dewi Sartika Br Ginting S.Kom., M.Kom<br>
-        Nurrahmadayeni M.Kom</td>
-    </tr>
-    <tr>
+        <td>Dr. Dewi Sartika Br Ginting S.Kom., M.Kom<br>Nurrahmadayeni M.Kom</td>
+      </tr>
+      <tr>
         <td>Jumat, 08.00-10.30</td>
         <td>Basis Data</td>
         <td>3</td>
         <td>D-101</td>
-        <td>Dr. Dewi Sartika Br Ginting S.Kom., M.Kom<br>
-        Insidini Fawwaz M.Kom</td>
-    </tr>
-    <tr>
+        <td>Dr. Dewi Sartika Br Ginting S.Kom., M.Kom<br>Insidini Fawwaz M.Kom</td>
+      </tr>
+      <tr>
         <td>Jumat, 10.30-12.10</td>
         <td>Wirausaha Digital</td>
         <td>2</td>
-        <td>D-105</td>
-        <td>Dr. T. Henny Febriana Harumy S.Kom., M.Kom<br>
-        Dr. Fauzan Nurahmadi S.Kom., M.Cs</td>
-    </tr>
-    <tr>
-      <td>Jumat, 13.50-15.30</td>
-      <td>Lab Basis Data</td>
-      <td>1</td>
-      <td>Lab Pemograman 3</td>
-      <td>Bang Alvian</td>
-    </tr>
-  </table>
-  
+        <td>-</td>
+        <td>Dr. T. Henny Febriana Harumy S.Kom., M.Kom<br>Dr. Fauzan Nurahmadi S.Kom., M.Cs</td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+ <!--Akhir Table-->
+ <br>
+<br>
+<!-- Akhir UTS Pemweb -->
  <div id="poy" class="poy-container">
-  <br>
-  <h2>💗My Support System at CompScie💗</h2>
+  <h2>💗My Support System at Collage💗</h2>
 
   <div class="poy">
     <!-- Card 1 -->
@@ -304,7 +402,7 @@
 </div>
 
 <br>
-<p class="popoyz">I don't know how to tell them, how big n grateful I am to Know, Meet, n be The part of their life. I would like to say The Biggest Thank You to them, I can't expact my journey at collage if i didn't meet them, Thankyou n Love You to The Moon n Back </p>
+<p class="popoyz">I didn't have time n bravery to tell them, how big n grateful I am to Know, Meet, n be The part of their life. I would like to say The Biggest Thank You to them, I can't expact my journey at collage if i didn't meet them, Thankyou n Love You to The Moon n Back </p>
 
 </body>
 </html>
@@ -325,10 +423,8 @@
       </form>
     </div>
     <!--Akhir My Contact-->
-
     <!--Footer-->
     <section id="contact" class="Footer">
-      <h1 class="text-center text-white fs-5">Contact Me</h1>
       <div class="container text-center contact">
         <a href="https://open.spotify.com/user/31fv5lynqkep77kk426ekjo2mh2i?si=ce7c142e6fa24811"
         ><i class="fa-brands fa-spotify"></i></a>
@@ -349,8 +445,3 @@
     <script src="script.js"></script>
     </body>
 </html>
-
-
-
-
-
